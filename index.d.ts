@@ -41,9 +41,9 @@ declare namespace RNRF {
      */
     duration?: number,
     /**
-     * direction of animation horizontal/vertical
+     * direction of animation horizontal/vertical/fade
      */
-    direction?: 'vertical' | 'horizontal',
+    direction?: 'vertical' | 'horizontal' | 'fade',
     /**
      * optional if provided overrides the default spring animation
      */
@@ -75,7 +75,10 @@ declare namespace RNRF {
      * hides tab bar for this scene and any following scenes until explicitly reversed (if built-in TabBar component is used as parent renderer)
      */
     hideTabBar?: boolean,
-
+    /**
+     * icon for a tab
+     */
+    icon?: React.ReactNode;
 
     // Navigation Bar
 
@@ -96,6 +99,10 @@ declare namespace RNRF {
      * Simple way to override the drawerImage in the navBar
      */
     drawerImage?: ReactNative.Image,
+    /**
+    * hides the drawer for this scene and any following scenes until explicitly reversed
+    */
+    open?: boolean,
 
     // Navigation Bar: Title
 
