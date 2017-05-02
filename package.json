@@ -37,16 +37,16 @@
     }
   ],
   "dependencies": {
-    "lodash.isequal": "^4.5.0",
-    "react": "^15.4.2",
-    "react-addons-pure-render-mixin": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-native": "^0.41.2",
+    "lodash.isequal": "^4.5.0",    
+    "react-addons-pure-render-mixin": "^15.4.2",  
     "react-native-experimental-navigation": "0.26.x",
     "react-native-tabs": "^1.0.9",
     "react-static-container": "1.0.1"
   },
-  "devDependencies": {
+  "devDependencies": {    
+    "react": "^15.5.4",
+    "react-native": "^0.41.2",
+    "react-dom": "^15.4.2",
     "babel-core": "^6.18.2",
     "babel-eslint": "^7.1.1",
     "babel-preset-react-native": "^1.9.0",
